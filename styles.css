@@ -5,6 +5,7 @@
 }
 
 body {
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,6 +14,7 @@ body {
 }
 
 .main-container {
+
   padding: 20px;
   border-radius: 15px;
   background-color: black;
@@ -29,15 +31,23 @@ body {
   flex-direction: column;
 }
 
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
 .pic {
-  height: 90px;
-  width: 9x0px;
+  height: 60px;
+  width: 60px;
 }
 
 .pic img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
+  display: block;
 }
 
 .jess {
@@ -58,16 +68,25 @@ body {
 
 .third-section {
   color: white;
+  margin-top: 1rem;
 }
 
-.list {
+.buttons {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
+}
 
+.button-link {
+  color: white;
+  width: 200px;
   border-radius: 4px;
   font-weight: bold;
   padding: 8px;
   text-align: center;
+  text-decoration: none;
+
   background-color: rgb(109, 104, 104);
 }
